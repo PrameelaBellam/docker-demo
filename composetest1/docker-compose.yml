@@ -1,3 +1,5 @@
 myapp:
   image: alpine:latest
   entrypoint: /bin/sh
+  stdin_open: true
+  tty: true
